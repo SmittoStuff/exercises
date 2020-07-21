@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+// check if the first string can be rearranged to form the second
 class CheckPermutation {
     public static boolean CheckPermutation(String s1, String s2) {
         if (s1.length() != s2.length()) {
